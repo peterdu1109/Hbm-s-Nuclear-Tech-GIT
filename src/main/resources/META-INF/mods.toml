@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0-or-later"
+issueTrackerURL="https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/issues"
+showAsResourcePack=true
+
+[[mods]]
+modId="hbm"
+version="${version}"
+displayName="Hbm's Nuclear Tech Mod"
+description='''
+Unofficial 1.20.1 port scaffold. This build focuses on upgrading the toolchain
+and project structure so that the original content can be migrated onto modern
+Forge APIs.
+'''
+credits="${credits}"
+authors="HbMinecraft"
+
+[[dependencies.hbm]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.hbm]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
